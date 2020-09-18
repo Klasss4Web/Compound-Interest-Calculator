@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loan.css">
+    <title>Compound Interest Machine</title>
+</head>
+<body>
+    <div >
+        <header id="headers">
+            <h1 id="heading">Compound Interest Calculator</h1>
+        </header>
+    </div>
+    <div class="container">
+        <form class="loan-calculator" id="loan-form">
+            <input type="number" class="determinant" id="principal" placeholder="principal">
+            <input type="number" class="determinant" id="interest" placeholder="loan interest">
+            <input type="number" class="determinant" id="years" placeholder="years to repay">
+            <input type="submit" class="computeBtn" value="Compute">
+        </form>
+        <div>
+            <h3>PAYMENTS</h3>
+            <input type="number" class="payables" id="monthly-payment" placeholder="monthly payment">
+            <input type="number" class="payables" id="total-payment" placeholder="total payment">
+            <input type="number" class="payables" id="total-interest" placeholder="total interest">
+        </div>
+    </div>
+
+    <script src="loan.js"></script>
+</body>
+</html>
